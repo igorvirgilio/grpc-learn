@@ -29,7 +29,7 @@ func (*server) GreetManyTimes(req *greetpb.GreetManyTimesRequest, stream greetpb
 	firstName := req.GetGreeting().GetFirstName()
 	for i := 0; i < 10; i++ {
 		result := "Hello " + firstName + " number" + strconv.Itoa(i)
-		res := &greetpb.GreetManytimesResponse{
+		res := &greetpb.GreetManyTimesResponse{
 			Result: result,
 		}
 		stream.Send(res)

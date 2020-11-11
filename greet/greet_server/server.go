@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"/OneDrive/PASTA PESSOAL/Imigração/Portugal/Mestrado/Projeto Final/Arquivos UMinho/Learning/grpc-learn/greet/greetpb"
+	"github.com/igorvirgilio/grpc-learn/greet/greetpb"
 	"google.golang.org/grpc"
 )
 
